@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>welcome</h1>
+    <h3>update email here</h3>
+    <form action="/update" method="post">
+      <input name="currEmail" type="text" placeholder="current email" />
+      <input name="cngEmail" type="text" placeholder="changed to" />
+      <button type="submit">Submit</button>
+    </form>
+    <hr />
+    <h3>delete user here</h3>
+    <form action="/delete" method="post">
+      <input name="username" type="text" placeholder="username" />
+      <button type="submit">Submit</button>
+    </form>
+    <hr />
+    <a href="/logout"><button>Log out</button></a>
+  </body>
+</html>
